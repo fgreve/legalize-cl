@@ -106,6 +106,10 @@ Fuente: https://www.bcn.cl/leychile/navegar?idNorma=61438&idVersion=2004-07-14
 
 Los commits están ordenados cronológicamente (todas las leyes mezcladas por fecha), lo que permite reconstruir el historial legislativo completo con `git log`.
 
+## Notas
+
+- La versión original (publicación) de la Ley 20.720 (BCN-1058072) no está disponible en la API de BCN (error 500 del servidor). El historial incluye las 4 reformas posteriores a partir de 2014-10-10.
+
 ## Fuente
 
 Datos obtenidos de la API XML de la [Biblioteca del Congreso Nacional de Chile](https://www.bcn.cl/leychile/) (BCN), el servicio oficial de consulta de legislación chilena.
@@ -121,6 +125,10 @@ Git resuelve este problema de forma natural: cada reforma es un commit con fecha
 ## Licencia
 
 Los textos legislativos son de dominio público. La estructuración y el formato están bajo licencia [MIT](LICENSE).
+
+## Autor
+
+**Fernando Greve** — [fernandogreve.com](https://www.fernandogreve.com/) · [GitHub](https://github.com/fgreve) · [LinkedIn](https://www.linkedin.com/in/fgreve/) · [fgreve@gmail.com](mailto:fgreve@gmail.com)
 
 ---
 
