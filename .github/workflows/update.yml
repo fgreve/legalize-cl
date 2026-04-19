@@ -1,0 +1,32 @@
+name: Actualizar normas
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install requests lxml
+
+      - name: Ejecutar scraper
+        run: python scraper.py --update --output-dir .
+
+      - name: Configurar git
+        run: |
+          git config user.name "Legalize CL"
+          git config user.email "bot@legalize.cl"
+
+      - name: Push si hay cambios
+        run: git diff --quiet || git push
