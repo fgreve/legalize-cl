@@ -4,7 +4,7 @@
 
 Cada ley es un fichero. Cada reforma es un commit.
 
-**16 normas** · **352 commits** · **Fuente: Biblioteca del Congreso Nacional**
+**17 normas** · **357 commits** · **Fuente: Biblioteca del Congreso Nacional**
 
 Parte del proyecto [Legalize](https://github.com/legalize-dev) · Inspirado en [legalize-es](https://github.com/legalize-dev/legalize-es)
 
@@ -42,6 +42,7 @@ cl/                              ← todas las normas en carpeta plana
   BCN-276363.md                  — Ley 20.285 · Acceso a Información Pública
   BCN-29472.md                   — Ley 18.045 · Mercado de Valores
   BCN-29473.md                   — Ley 18.046 · Sociedades Anónimas
+  BCN-1058072.md                 — Ley 20.720 · Reorganización y Liquidación
   BCN-1008668.md                 — Ley 20.393 · Resp. Penal Personas Jurídicas
   BCN-1048718.md                 — Ley 20.659 · Simplificación Constitución Empresas
   BCN-1127890.md                 — Ley 21.131 · Pago a 30 Días
